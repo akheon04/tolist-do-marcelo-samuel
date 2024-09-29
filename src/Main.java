@@ -21,5 +21,6 @@ public class Main {
         contaCorrente.transferir(contaEspecial, 200);
         System.out.println("Saldo Conta Corrente: R$ " + contaCorrente.verSaldo());
         System.out.println("Saldo Conta Especial: R$ " + contaEspecial.verSaldo());
+        System.out.println(".");
     }
 }
